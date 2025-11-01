@@ -1,0 +1,3 @@
+
+class SortedList[T]:
+    pass
