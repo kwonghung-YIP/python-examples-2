@@ -1,6 +1,5 @@
-from .models import SimpleModel, Name
+from .person import Name, Person
 
 if __name__ == "__main__":
-    obj = SimpleModel()
-    name = Name("John","Doe")
-    print(dir(name))
+    john = Person(**({"name":{"title":"Mr","firstName":"John","lastName":"Doe"},"dob":"1994-03-16","email":"john.doe@gmail.com"}))
+    print(john.model_dump())
