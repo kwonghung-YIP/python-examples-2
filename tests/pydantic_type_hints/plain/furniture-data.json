@@ -1,0 +1,19 @@
+[
+    {
+        "family": "furniture",
+        "category": "table",
+        "tableCategory": "adjustable-table",
+        "title": "Office adjustable table",
+        "desc": "Solid wood adjustable table",
+        "brand": "Furniture Choose"
+    },
+    {
+        "id": "25b62149-7cf0-40ee-96c1-2069085c7ca8",
+        "family": "furniture",
+        "category": "chair",
+        "chairCategory": "office-chair",
+        "title": "Office Air Mesh",
+        "desc": "Ergonomic Office Chair",
+        "brand": "Furniture Choose"
+    }
+]
