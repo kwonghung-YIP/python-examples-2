@@ -86,6 +86,7 @@ class Chair(Furniture):
     def type(self) -> ProductCategory:
         return ChairCategory(self.family,self.category,self.chairCategory)
 
+ProductFactory.register(ProductCategory('furniture'),Furniture)
 ProductFactory.register(TableCategory(PRODUCT_FAMILY_FURNITURE,\
     FURNITURE_CATEGORY_TABLE,'dining-table'),Table)
 ProductFactory.register(ChairCategory(PRODUCT_FAMILY_FURNITURE,\

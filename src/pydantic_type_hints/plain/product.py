@@ -80,6 +80,8 @@ class ProductFactory:
         log.info(f"register:{category}->{productClass}")
         factory = cls.instance()
         factory._productCatagolue[category] = productClass
+        doc_view = sorted(factory._productCatagolue.items(),key=lambda item:len(vars(item[0])),reverse=True)
+        factory._productCatagolue = dict(doc_view)
 
     @classmethod
     def buildFromDict(cls,rawData:dict[str,Any]) -> Product:

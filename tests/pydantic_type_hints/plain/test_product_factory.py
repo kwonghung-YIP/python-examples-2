@@ -13,7 +13,7 @@ class TestProductFactory:
         factory = ProductFactory.instance()
 
         assert hasattr(factory,'_productCatagolue')
-        assert len(factory._productCatagolue) == 3
+        assert len(factory._productCatagolue) == 4
         
         raw = dict(id='25b62149-7cf0-40ee-96c1-2069085c7ca8',family='furniture',\
                 category='table',tableCategory='dining-table',title='Solid Oak Wood Dining Table', brand='Home Design')
