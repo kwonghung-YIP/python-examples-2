@@ -1,3 +1,17 @@
+## commands
+```bash
+# run all pytest cases
+pytest
+
+# run individual pytest file
+pytest ./test/pydantic_type_hints/plain/test_product_factory.py
+
+#run the __main__ module within a package
+python -m src.pydantic_type_hints.plain
+
+#run a specific module within a package
+python -m src.pydantic_type_hints.product
+```
 ## References
 - [pydantic concept - models](https://docs.pydantic.dev/latest/concepts/models/)
 - [pydantic concept - types](https://docs.pydantic.dev/latest/concepts/types/)
